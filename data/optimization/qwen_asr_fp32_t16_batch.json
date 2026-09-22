@@ -1,0 +1,18 @@
+{
+  "config": "fp32 t16 batch(len=8)",
+  "load_s": 0.85,
+  "wall_s": 11.37,
+  "audio_s": 55.13,
+  "aggregate_rtf": 0.2063,
+  "all_nonempty": true,
+  "hyps": [
+    "今天天气真不错，我们一起去公园散步吧。",
+    "The weather is really nice today. Let's ",
+    "今日はとても良い天気ですね。公園を散歩しながらコーヒーを飲みましょう。",
+    "我用 Git Hub 管理代码，用 Kubernetes 部署服务，效率提升了很",
+    "The weather is really nice today. Let's ",
+    "甚至出现交易几乎停滞的情况。",
+    "Hmm. Oh yeah, yeah. He wasn't even that ",
+    "昨天是 Monday。Today is 礼拜二。The day after to"
+  ]
+}

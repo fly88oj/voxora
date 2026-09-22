@@ -1,0 +1,46 @@
+[
+  {
+    "config": "qwen_onnx_int8_t16",
+    "meta": {
+      "engine": "qwen3-asr onnx int8",
+      "threads": 16
+    },
+    "aggregate_rtf": 0.0776,
+    "audio_s": 62.65,
+    "items": [
+      {
+        "file": "qwen3tts_zh_0.wav",
+        "rtf": 0.1131
+      },
+      {
+        "file": "qwen3tts_en_0.wav",
+        "rtf": 0.117
+      },
+      {
+        "file": "qwen3tts_ja_0.wav",
+        "rtf": 0.0962
+      },
+      {
+        "file": "qwen3tts_zh_mixed_0.wav",
+        "rtf": 0.1091
+      },
+      {
+        "file": "piper_en_0.wav",
+        "rtf": 0.1427
+      },
+      {
+        "file": "asr_zh.wav",
+        "rtf": 0.0903
+      },
+      {
+        "file": "asr_en_16k.wav",
+        "rtf": 0.0339
+      },
+      {
+        "file": "0.wav",
+        "rtf": 0.0801
+      }
+    ],
+    "load_s": 2.18
+  }
+]

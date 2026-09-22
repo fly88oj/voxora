@@ -1,0 +1,164 @@
+{
+  "engine": "Qwen3-TTS-12Hz-0.6B-CustomVoice (qwen-tts pkg)",
+  "config": "cpu float32, torch threads=16",
+  "load_s": 1.45,
+  "items": [
+    {
+      "lang": "zh",
+      "voice": "Vivian",
+      "text": "今天天气真不错，我们一起去公园散步吧。",
+      "file": "audio/wav/qwen3tts_zh_0.wav",
+      "synth_s": 19.601,
+      "audio_s": 3.92,
+      "rtf": 5.0003
+    },
+    {
+      "lang": "zh",
+      "voice": "Vivian",
+      "text": "人工智能正在改变我们的工作方式和生活方式，语音识别技术也越来越成熟。",
+      "file": "audio/wav/qwen3tts_zh_1.wav",
+      "synth_s": 42.129,
+      "audio_s": 8.8,
+      "rtf": 4.7874
+    },
+    {
+      "lang": "zh_mixed",
+      "voice": "Vivian",
+      "text": "我用 GitHub 管理代码，用 Kubernetes 部署服务，效率提升了很多。",
+      "file": "audio/wav/qwen3tts_zh_mixed_0.wav",
+      "synth_s": 30.511,
+      "audio_s": 6.48,
+      "rtf": 4.7085
+    },
+    {
+      "lang": "en",
+      "voice": "Ryan",
+      "text": "The weather is really nice today, let's take a walk in the park together.",
+      "file": "audio/wav/qwen3tts_en_0.wav",
+      "synth_s": 24.945,
+      "audio_s": 5.2,
+      "rtf": 4.7971
+    },
+    {
+      "lang": "en",
+      "voice": "Ryan",
+      "text": "Artificial intelligence is transforming the way we work and live across many industries.",
+      "file": "audio/wav/qwen3tts_en_1.wav",
+      "synth_s": 30.373,
+      "audio_s": 6.4,
+      "rtf": 4.7458
+    },
+    {
+      "lang": "ja",
+      "voice": "Ono_Anna",
+      "text": "今日はとても良い天気ですね。公園を散歩しながらコーヒーを飲みましょう。",
+      "file": "audio/wav/qwen3tts_ja_0.wav",
+      "synth_s": 32.31,
+      "audio_s": 6.56,
+      "rtf": 4.9254
+    },
+    {
+      "lang": "ja",
+      "voice": "Ono_Anna",
+      "text": "人工知能は私たちの生活を大きく変えています。",
+      "file": "audio/wav/qwen3tts_ja_1.wav",
+      "synth_s": 21.732,
+      "audio_s": 4.48,
+      "rtf": 4.8509
+    },
+    {
+      "lang": "ko",
+      "voice": "Sohee",
+      "text": "오늘 날씨가 정말 좋네요. 공원에 산책하러 갑시다.",
+      "file": "audio/wav/qwen3tts_ko_0.wav",
+      "synth_s": 22.591,
+      "audio_s": 4.64,
+      "rtf": 4.8688
+    },
+    {
+      "lang": "ko",
+      "voice": "Sohee",
+      "text": "인공지능이 우리의 삶을 바꾸고 있습니다.",
+      "file": "audio/wav/qwen3tts_ko_1.wav",
+      "synth_s": 22.68,
+      "audio_s": 4.56,
+      "rtf": 4.9737
+    },
+    {
+      "lang": "de",
+      "voice": "Dylan",
+      "text": "Das Wetter ist heute wunderbar, lass uns im Park spazieren gehen.",
+      "file": "audio/wav/qwen3tts_de_0.wav",
+      "synth_s": 18.373,
+      "audio_s": 3.68,
+      "rtf": 4.9925
+    },
+    {
+      "lang": "de",
+      "voice": "Dylan",
+      "text": "Künstliche Intelligenz verändert unsere Arbeitsweise in vielen Bereichen.",
+      "file": "audio/wav/qwen3tts_de_1.wav",
+      "synth_s": 29.329,
+      "audio_s": 5.92,
+      "rtf": 4.9543
+    },
+    {
+      "lang": "fr",
+      "voice": "Serena",
+      "text": "Le temps est magnifique aujourd'hui, allons nous promener au parc.",
+      "file": "audio/wav/qwen3tts_fr_0.wav",
+      "synth_s": 18.681,
+      "audio_s": 3.92,
+      "rtf": 4.7656
+    },
+    {
+      "lang": "fr",
+      "voice": "Serena",
+      "text": "L'intelligence artificielle transforme notre manière de travailler.",
+      "file": "audio/wav/qwen3tts_fr_1.wav",
+      "synth_s": 18.069,
+      "audio_s": 3.84,
+      "rtf": 4.7054
+    },
+    {
+      "lang": "es",
+      "voice": "Aiden",
+      "text": "Hoy hace un tiempo maravilloso, vamos a dar un paseo por el parque.",
+      "file": "audio/wav/qwen3tts_es_0.wav",
+      "synth_s": 24.887,
+      "audio_s": 5.04,
+      "rtf": 4.9378
+    },
+    {
+      "lang": "es",
+      "voice": "Aiden",
+      "text": "La inteligencia artificial está cambiando el mundo entero.",
+      "file": "audio/wav/qwen3tts_es_1.wav",
+      "synth_s": 18.427,
+      "audio_s": 3.76,
+      "rtf": 4.9008
+    },
+    {
+      "lang": "ru",
+      "voice": "Eric",
+      "text": "Сегодня прекрасная погода, давайте прогуляемся по парку.",
+      "file": "audio/wav/qwen3tts_ru_0.wav",
+      "synth_s": 22.952,
+      "audio_s": 4.72,
+      "rtf": 4.8627
+    },
+    {
+      "lang": "ru",
+      "voice": "Eric",
+      "text": "Искусственный интеллект меняет нашу жизнь с каждым днём.",
+      "file": "audio/wav/qwen3tts_ru_1.wav",
+      "synth_s": 18.639,
+      "audio_s": 3.92,
+      "rtf": 4.7549
+    }
+  ],
+  "streaming": {
+    "first_chunk_s": 22.2381
+  },
+  "peak_rss_mb": 5671.7
+}

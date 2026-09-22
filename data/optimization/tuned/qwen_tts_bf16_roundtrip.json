@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "description": "Qwen3-TTS bf16 audio scored by ASR round-trip (re-measured 2026-09-23; load-insensitive accuracy metric). Regenerate via the round-trip protocol in docs/METHODOLOGY.md section 4.",
+  "referee": "qwen3-asr (bf16) + qwen3-asr-onnx (both scored identically)",
+  "items": [
+    {
+      "file": "bf16qwen3tts_zh_0.wav",
+      "lang": "zh",
+      "err": 0.0
+    },
+    {
+      "file": "bf16qwen3tts_zh_1.wav",
+      "lang": "zh",
+      "err": 0.0
+    },
+    {
+      "file": "bf16qwen3tts_en_2.wav",
+      "lang": "en",
+      "err": 0.0
+    },
+    {
+      "file": "bf16qwen3tts_en_3.wav",
+      "lang": "en",
+      "err": 0.0
+    },
+    {
+      "file": "bf16qwen3tts_ja_4.wav",
+      "lang": "ja",
+      "err": 0.0303
+    },
+    {
+      "file": "bf16qwen3tts_zh_mixed_5.wav",
+      "lang": "zh_mixed",
+      "err": 0.0
+    }
+  ],
+  "avg_err": 0.005,
+  "fp32_reference_avg_err": 0.0074
+}

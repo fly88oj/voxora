@@ -1,0 +1,67 @@
+{
+  "engine": "Fun-CosyVoice3-0.5B (AutoModel)",
+  "config": "cpu float32(?), torch threads=16",
+  "load_s": 10.73,
+  "items": [
+    {
+      "tag": "zero_shot_zh",
+      "file": "audio/wav/cosyvoice_zero_shot_zh_0.wav",
+      "synth_s": 15.017,
+      "first_chunk_s": 15.017,
+      "audio_s": 3.76,
+      "rtf": 3.994,
+      "text": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "tag": "zero_shot_zh",
+      "file": "audio/wav/cosyvoice_zero_shot_zh_1.wav",
+      "synth_s": 24.599,
+      "first_chunk_s": 24.5987,
+      "audio_s": 6.88,
+      "rtf": 3.5754,
+      "text": "人工智能正在改变我们的工作方式和生活方式，语音识别技术也越来越成熟。"
+    },
+    {
+      "tag": "zero_shot_zh_stream",
+      "file": "audio/wav/cosyvoice_zero_shot_zh_stream.wav",
+      "synth_s": 22.62,
+      "first_chunk_s": 9.9741,
+      "audio_s": 3.92,
+      "rtf": 5.7705,
+      "text": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "tag": "instruct2_yue",
+      "file": "audio/wav/cosyvoice_instruct2_yue.wav",
+      "synth_s": 33.335,
+      "first_chunk_s": 33.3345,
+      "audio_s": 9.96,
+      "rtf": 3.3469
+    },
+    {
+      "tag": "instruct2_sichuan",
+      "file": "audio/wav/cosyvoice_instruct2_sichuan.wav",
+      "synth_s": 20.089,
+      "first_chunk_s": 20.0884,
+      "audio_s": 3.36,
+      "rtf": 5.9788
+    },
+    {
+      "tag": "cross_en",
+      "file": "audio/wav/cosyvoice_cross_en.wav",
+      "synth_s": 15.504,
+      "first_chunk_s": 15.5036,
+      "audio_s": 4.36,
+      "rtf": 3.5559
+    },
+    {
+      "tag": "cross_ja",
+      "file": "audio/wav/cosyvoice_cross_ja.wav",
+      "synth_s": 7.905,
+      "first_chunk_s": 7.905,
+      "audio_s": 2.0,
+      "rtf": 3.9526
+    }
+  ],
+  "peak_rss_mb": 7663.2
+}

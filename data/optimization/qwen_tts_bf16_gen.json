@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "file": "audio/wav/bf16qwen3tts_zh_0.wav",
+      "lang": "zh",
+      "synth_s": 7.08,
+      "audio_s": 5.28,
+      "rtf": 1.3405
+    },
+    {
+      "file": "audio/wav/bf16qwen3tts_zh_1.wav",
+      "lang": "zh",
+      "synth_s": 12.12,
+      "audio_s": 8.16,
+      "rtf": 1.4851
+    },
+    {
+      "file": "audio/wav/bf16qwen3tts_en_2.wav",
+      "lang": "en",
+      "synth_s": 7.53,
+      "audio_s": 5.28,
+      "rtf": 1.4266
+    },
+    {
+      "file": "audio/wav/bf16qwen3tts_en_3.wav",
+      "lang": "en",
+      "synth_s": 10.3,
+      "audio_s": 7.36,
+      "rtf": 1.3988
+    },
+    {
+      "file": "audio/wav/bf16qwen3tts_ja_4.wav",
+      "lang": "ja",
+      "synth_s": 8.93,
+      "audio_s": 6.64,
+      "rtf": 1.3446
+    },
+    {
+      "file": "audio/wav/bf16qwen3tts_zh_mixed_5.wav",
+      "lang": "zh_mixed",
+      "synth_s": 9.35,
+      "audio_s": 6.64,
+      "rtf": 1.4077
+    }
+  ]
+}

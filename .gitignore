@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv*/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Large local artifacts — never commit model weights or downloaded corpora
+models/
+*.onnx
+*.safetensors
+*.tar.bz2
+wavs/
+logs/
+downloads.txt
+ms_downloads.txt
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+.mimosa/

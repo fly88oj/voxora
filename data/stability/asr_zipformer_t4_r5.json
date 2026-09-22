@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "engine": "zipformer",
+  "kind": "asr",
+  "config": {
+    "num_threads": 4,
+    "repeat": 5,
+    "load_s": 1.059,
+    "voxora_version": "0.1"
+  },
+  "environment": {
+    "captured_at": "2026-09-23T02:58:22+00:00",
+    "schema_note": "see docs/METHODOLOGY.md",
+    "python": "3.12.3",
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+    "cpu": {
+      "arch": "x86_64",
+      "model": "AMD RYZEN AI MAX+ 395 w/ Radeon 8060S",
+      "logical_cpus": 32,
+      "physical_cores": 16
+    },
+    "libraries": {
+      "numpy": "2.5.3",
+      "soundfile": "0.14.0",
+      "sherpa-onnx": "1.13.8",
+      "piper-tts": "1.8.0",
+      "fastapi": "0.141.1",
+      "torch": "not-installed",
+      "qwen-asr": "not-installed",
+      "qwen-tts": "not-installed",
+      "transformers": "not-installed",
+      "onnxruntime": "1.30.0"
+    }
+  },
+  "aggregate": {
+    "audio_s": 55.13,
+    "rtf": 0.0332,
+    "passes": [
+      0.0326,
+      0.0344,
+      0.0343,
+      0.0336,
+      0.031
+    ],
+    "stats": {
+      "n": 5,
+      "mean": 0.0332,
+      "std": 0.0014,
+      "cv": 0.0426
+    }
+  },
+  "items": [
+    {
+      "file": "0.wav",
+      "audio_s": 10.053,
+      "processing_s": 0.32,
+      "rtf": 0.0318,
+      "hyp": "昨天是 MONDAY TODAY IS LIBR THE DAY AFTER TOMORROW是星期三"
+    },
+    {
+      "file": "asr_en_16k.wav",
+      "audio_s": 15.051,
+      "processing_s": 0.476,
+      "rtf": 0.0316,
+      "hyp": "嗯哼 OH YEAH HE WAS NT EVEN THAT BIG WHEN I STARTED LISTENING TO HIM BUT IN HIS SOLO MUSIC DIDNT DO OVERLY WELL BUT HE DID VERY WELL WHEN HE STARTED WRITING FOR OTHER PEOPLE"
+    },
+    {
+      "file": "asr_zh.wav",
+      "audio_s": 4.204,
+      "processing_s": 0.116,
+      "rtf": 0.0276,
+      "hyp": "甚至出现交易几乎停滞的情况"
+    },
+    {
+      "file": "piper_en_0.wav",
+      "audio_s": 3.657,
+      "processing_s": 0.104,
+      "rtf": 0.0284,
+      "hyp": "NICE TODAY LETS TAKE A WALK IN THE PARK TOGETHER"
+    },
+    {
+      "file": "qwen3tts_en_0.wav",
+      "audio_s": 5.2,
+      "processing_s": 0.153,
+      "rtf": 0.0294,
+      "hyp": "THE WEATHER IS REALLY NICE TODAY LETS TAKE A WALK IN THE PARK TOGETHER"
+    },
+    {
+      "file": "qwen3tts_ja_0.wav",
+      "audio_s": 6.56,
+      "processing_s": 0.204,
+      "rtf": 0.0311,
+      "hyp": "救了 COURT HE ON THE MEMOS"
+    },
+    {
+      "file": "qwen3tts_zh_0.wav",
+      "audio_s": 3.92,
+      "processing_s": 0.12,
+      "rtf": 0.0306,
+      "hyp": "今天天气真不错我们一起去公园散步吧"
+    },
+    {
+      "file": "qwen3tts_zh_mixed_0.wav",
+      "audio_s": 6.48,
+      "processing_s": 0.217,
+      "rtf": 0.0335,
+      "hyp": "我用吉他把管理代码用 KUBERNETES部署服务效率提升了很多"
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "engine": "sherpa-onnx streaming zipformer bilingual zh-en 2023-02-20",
+  "config": "fp32_t8",
+  "encoder": "encoder-epoch-99-avg-1.onnx",
+  "num_threads": 8,
+  "aggregate": {
+    "audio_s": 258.72,
+    "proc_s": 10.8,
+    "rtf": 0.0417
+  },
+  "items": [
+    {
+      "file": "0.wav",
+      "audio_s": 10.053,
+      "infer_s": 0.439,
+      "rtf": 0.0437,
+      "worst_chunk_ms": 17.6,
+      "tail_ms": 0.1,
+      "hyp": "昨天是 MONDAY TODAY IS LIBR THE DAY AFTER TOMORROW是星期三"
+    },
+    {
+      "file": "1.wav",
+      "audio_s": 5.1,
+      "infer_s": 0.19,
+      "rtf": 0.0372,
+      "worst_chunk_ms": 13.6,
+      "tail_ms": 0.0,
+      "hyp": "这是第一种第二种叫呃与 ALWAYS ALWAYS什么"
+    },
+    {
+      "file": "2.wav",
+      "audio_s": 4.69,
+      "infer_s": 0.241,
+      "rtf": 0.0513,
+      "worst_chunk_ms": 20.7,
+      "tail_ms": 0.1,
+      "hyp": "是不是平凡的啊不认识记下来 FREQUENTLY频繁的"
+    },
+    {
+      "file": "3.wav",
+      "audio_s": 8.83,
+      "infer_s": 0.391,
+      "rtf": 0.0443,
+      "worst_chunk_ms": 17.6,
+      "tail_ms": 0.1,
+      "hyp": "第一句是个什么时态加了 ES是一般现在时对后面它时态写上"
+    },
+    {
+      "file": "8k_ref_16k.wav",
+      "audio_s": 17.64,
+      "infer_s": 0.71,
+      "rtf": 0.0402,
+      "worst_chunk_ms": 14.1,
+      "tail_ms": 0.1,
+      "hyp": "是 IN TIME是及时叫他总是准时教他的作业那用一般现在时是没有什么感情色彩的陈述一个事实下一句话为什么要用现在进行时它的意思并不是说说他现在正在教他"
+    },
+    {
+      "file": "asr_en_16k.wav",
+      "error": "3"
+    },
+    {
+      "file": "asr_zh.wav",
+      "audio_s": 4.204,
+      "infer_s": 0.153,
+      "rtf": 0.0365,
+      "worst_chunk_ms": 13.3,
+      "tail_ms": 0.0,
+      "hyp": "甚至出现交易几乎停滞的情况"
+    },
+    {
+      "file": "bf16qwen3tts_en_2.wav",
+      "audio_s": 5.28,
+      "infer_s": 0.222,
+      "rtf": 0.0421,
+      "worst_chunk_ms": 14.9,
+      "tail_ms": 0.1,
+      "hyp": "THE WEATHER IS REALLY NICE TODAY LETS TAKE A WALK IN THE PARK TOGETHER"
+    },
+    {
+      "file": "bf16qwen3tts_en_3.wav",
+      "audio_s": 7.36,
+      "infer_s": 0.312,
+      "rtf": 0.0424,
+      "worst_chunk_ms": 14.8,
+      "tail_ms": 0.1,
+      "hyp": "ARTIFICIAL INTELLIGENCE IS TRANSFORMING THE WAY WE WORK AND LIVE ACROSS MANY INDUSTRIES"
+    },
+    {
+      "file": "bf16qwen3tts_ja_4.wav",
+      "audio_s": 6.64,
+      "infer_s": 0.289,
+      "rtf": 0.0435,
+      "worst_chunk_ms": 16.0,
+      "tail_ms": 0.1,
+      "hyp": "COIN WAS IMPACTORY ON ME MY SHO"
+    },
+    {
+      "file": "bf16qwen3tts_zh_0.wav",
+      "audio_s": 5.28,
+      "infer_s": 0.232,
+      "rtf": 0.0439,
+      "worst_chunk_ms": 16.5,
+      "tail_ms": 0.1,
+      "hyp": "今天天气真不错我们一起去公园散步吧"
+    },
+    {
+      "file": "bf16qwen3tts_zh_1.wav",
+      "audio_s": 8.16,
+      "infer_s": 0.337,
+      "rtf": 0.0414,
+      "worst_chunk_ms": 16.5,
+      "tail_ms": 0.0,
+      "hyp": "人工智能正在改变我们的工作方式和生活方式语音识别技术也越来越成熟"
+    },
+    {
+      "file": "bf16qwen3tts_zh_mixed_5.wav",
+      "audio_s": 6.64,
+      "infer_s": 0.294,
+      "rtf": 0.0443,
+      "worst_chunk_ms": 20.3,
+      "tail_ms": 0.1,
+      "hyp": "我用 GETAB管理代码用 KIDBERNETES部署服务效率提升了很多"
+    },
+    {
+      "file": "cosyvoice_cross_en.wav",
+      "audio_s": 4.36,
+      "infer_s": 0.19,
+      "rtf": 0.0435,
+      "worst_chunk_ms": 16.8,
+      "tail_ms": 0.1,
+      "hyp": "THE WEATHER IS REALLY NICE TODAY LETS TAKE A WALK IN THE PARK TOGETHER"
+    },
+    {
+      "file": "cosyvoice_cross_ja.wav",
+      "audio_s": 2.0,
+      "infer_s": 0.079,
+      "rtf": 0.0395,
+      "worst_chunk_ms": 13.4,
+      "tail_ms": 13.2,
+      "hyp": "臭啊土地摸一天给的是"
+    },
+    {
+      "file": "cosyvoice_instruct2_sichuan.wav",
+      "audio_s": 3.36,
+      "infer_s": 0.142,
+      "rtf": 0.0423,
+      "worst_chunk_ms": 17.6,
+      "tail_ms": 0.0,
+      "hyp": "今天天气真不错我没去公园散步"
+    },
+    {
+      "file": "cosyvoice_instruct2_yue.wav",
+      "audio_s": 9.96,
+      "infer_s": 0.396,
+      "rtf": 0.0398,
+      "worst_chunk_ms": 14.3,
+      "tail_ms": 0.1,
+      "hyp": "骚动后要宠云峰给罗德山亚来嘛麻烦你我的感谢不上的祝福永爱心中全部聊天吗得发"
+    },
+    {
+      "file": "cosyvoice_zero_shot_zh_0.wav",
+      "audio_s": 3.76,
+      "infer_s": 0.147,
+      "rtf": 0.039,
+      "worst_chunk_ms": 13.7,
+      "tail_ms": 0.0,
+      "hyp": "今天天气真不错我们一起去公园散步吧"
+    },
+    {
+      "file": "cosyvoice_zero_shot_zh_1.wav",
+      "audio_s": 6.88,
+      "infer_s": 0.285,
+      "rtf": 0.0415,
+      "worst_chunk_ms": 14.1,
+      "tail_ms": 0.1,
+      "hyp": "人工智能正在改变我们的工作方式和生活方式语音识别技术也越来越成熟"
+    },
+    {
+      "file": "cosyvoice_zero_shot_zh_stream.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.179,
+      "rtf": 0.0457,
+      "worst_chunk_ms": 19.4,
+      "tail_ms": 14.7,
+      "hyp": "今天天气真不错我们一起去公园散步吧"
+    },
+    {
+      "file": "piper_de_0.wav",
+      "audio_s": 3.704,
+      "infer_s": 0.166,
+      "rtf": 0.045,
+      "worst_chunk_ms": 19.4,
+      "tail_ms": 0.1,
+      "hyp": "DOES IT WOUNDABAR LASSONS IN PARKS BUT SIRIN"
+    },
+    {
+      "file": "piper_de_1.wav",
+      "audio_s": 3.843,
+      "infer_s": 0.153,
+      "rtf": 0.0399,
+      "worst_chunk_ms": 14.8,
+      "tail_ms": 0.0,
+      "hyp": "AGAINST FOR INDER WHEN ZOBERTS VISOR IN FIELD"
+    },
+    {
+      "file": "piper_en_0.wav",
+      "audio_s": 3.657,
+      "infer_s": 0.156,
+      "rtf": 0.0425,
+      "worst_chunk_ms": 16.4,
+      "tail_ms": 0.1,
+      "hyp": "THE WEATHER IS REALLY NICE TODAY LETS TAKE A WALK IN THE PARK TOGETHER"
+    },
+    {
+      "file": "piper_en_1.wav",
+      "audio_s": 5.004,
+      "infer_s": 0.219,
+      "rtf": 0.0437,
+      "worst_chunk_ms": 14.7,
+      "tail_ms": 0.1,
+      "hyp": "FICIAL INTELLIGENCE IS TRANSFORMING THE WAY WE WORK AND LIVE ACROSS MANY INDUST"
+    },
+    {
+      "file": "piper_es_0.wav",
+      "audio_s": 4.598,
+      "infer_s": 0.191,
+      "rtf": 0.0415,
+      "worst_chunk_ms": 14.5,
+      "tail_ms": 0.1,
+      "hyp": "我要想听不骂他"
+    },
+    {
+      "file": "piper_es_1.wav",
+      "audio_s": 3.762,
+      "infer_s": 0.142,
+      "rtf": 0.0377,
+      "worst_chunk_ms": 13.8,
+      "tail_ms": 0.1,
+      "hyp": "冷先生的 STUCKYONDER MOONDER"
+    },
+    {
+      "file": "piper_fr_0.wav",
+      "audio_s": 3.506,
+      "infer_s": 0.134,
+      "rtf": 0.0382,
+      "worst_chunk_ms": 16.4,
+      "tail_ms": 0.0,
+      "hyp": "OIN MANIFIC WAS ALD WE ALLOW PON NEO"
+    },
+    {
+      "file": "piper_fr_1.wav",
+      "audio_s": 3.808,
+      "infer_s": 0.14,
+      "rtf": 0.0368,
+      "worst_chunk_ms": 12.8,
+      "tail_ms": 0.1,
+      "hyp": "LATITAN SATI FIELD HONZ FARMER NOT ROMANIA DUTHA"
+    },
+    {
+      "file": "piper_ru_0.wav",
+      "audio_s": 3.216,
+      "infer_s": 0.115,
+      "rtf": 0.0357,
+      "worst_chunk_ms": 12.8,
+      "tail_ms": 0.0,
+      "hyp": "媳妇你"
+    },
+    {
+      "file": "piper_ru_1.wav",
+      "audio_s": 2.81,
+      "infer_s": 0.107,
+      "rtf": 0.0381,
+      "worst_chunk_ms": 14.1,
+      "tail_ms": 0.0,
+      "hyp": ""
+    },
+    {
+      "file": "piper_zh_0.wav",
+      "audio_s": 4.365,
+      "infer_s": 0.181,
+      "rtf": 0.0415,
+      "worst_chunk_ms": 14.5,
+      "tail_ms": 0.1,
+      "hyp": "今天天气真不错我们一起去公园三步"
+    },
+    {
+      "file": "piper_zh_1.wav",
+      "audio_s": 6.49,
+      "infer_s": 0.295,
+      "rtf": 0.0455,
+      "worst_chunk_ms": 16.2,
+      "tail_ms": 0.1,
+      "hyp": "人工智能正在改编我们的工作方式和生活方式语音识别技术也越来越成熟"
+    },
+    {
+      "file": "qwen3tts_de_0.wav",
+      "audio_s": 3.68,
+      "infer_s": 0.159,
+      "rtf": 0.0431,
+      "worst_chunk_ms": 14.5,
+      "tail_ms": 0.1,
+      "hyp": "US VETA IS HAWIT OF WONDERBACH LASSONS IMPARKS BUT SEANG IN"
+    },
+    {
+      "file": "qwen3tts_de_1.wav",
+      "audio_s": 5.92,
+      "infer_s": 0.257,
+      "rtf": 0.0435,
+      "worst_chunk_ms": 14.3,
+      "tail_ms": 0.1,
+      "hyp": "可能 AGAINST FOR ANNATONSE GA ARBITS VISOR IN FIELD BURCH IN"
+    },
+    {
+      "file": "qwen3tts_en_0.wav",
+      "audio_s": 5.2,
+      "infer_s": 0.225,
+      "rtf": 0.0432,
+      "worst_chunk_ms": 14.7,
+      "tail_ms": 12.7,
+      "hyp": "THE WEATHER IS REALLY NICE TODAY LETS TAKE A WALK IN THE PARK TOGETHER"
+    },
+    {
+      "file": "qwen3tts_en_1.wav",
+      "audio_s": 6.4,
+      "infer_s": 0.274,
+      "rtf": 0.0427,
+      "worst_chunk_ms": 15.2,
+      "tail_ms": 0.1,
+      "hyp": "TELLIGENCE IS TRANSFORMING THE WAY WE WORK AND LIVE ACROSS MANY INDUSTRIES"
+    },
+    {
+      "file": "qwen3tts_es_0.wav",
+      "audio_s": 5.04,
+      "infer_s": 0.228,
+      "rtf": 0.0452,
+      "worst_chunk_ms": 15.5,
+      "tail_ms": 0.1,
+      "hyp": "OHITHUM DIMBORABIOSO BY MONSA ROOM PASSEIL POOR ELBARK"
+    },
+    {
+      "file": "qwen3tts_es_1.wav",
+      "audio_s": 3.76,
+      "infer_s": 0.161,
+      "rtf": 0.0429,
+      "worst_chunk_ms": 15.2,
+      "tail_ms": 0.1,
+      "hyp": "HENCE THE ARITY VISIALIST I CAN BEANDWELL MUNDO INTER"
+    },
+    {
+      "file": "qwen3tts_fr_0.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.172,
+      "rtf": 0.0438,
+      "worst_chunk_ms": 15.0,
+      "tail_ms": 13.0,
+      "hyp": "LITTLE A MANNFICERODVI ELON PONIL BAK"
+    },
+    {
+      "file": "qwen3tts_fr_1.wav",
+      "audio_s": 3.84,
+      "infer_s": 0.153,
+      "rtf": 0.0399,
+      "worst_chunk_ms": 14.1,
+      "tail_ms": 0.0,
+      "hyp": "SAT IF HE SELD CONSTONE NOT FOR MANY OTHER"
+    },
+    {
+      "file": "qwen3tts_ja_0.wav",
+      "audio_s": 6.56,
+      "infer_s": 0.257,
+      "rtf": 0.0391,
+      "worst_chunk_ms": 13.3,
+      "tail_ms": 0.1,
+      "hyp": "救了密码"
+    },
+    {
+      "file": "qwen3tts_ja_1.wav",
+      "audio_s": 4.48,
+      "infer_s": 0.165,
+      "rtf": 0.0369,
+      "worst_chunk_ms": 13.1,
+      "tail_ms": 0.0,
+      "hyp": "金哥"
+    },
+    {
+      "file": "qwen3tts_ko_0.wav",
+      "audio_s": 4.64,
+      "infer_s": 0.18,
+      "rtf": 0.0389,
+      "worst_chunk_ms": 13.7,
+      "tail_ms": 0.0,
+      "hyp": "无论得是个穷没穷的哦 SIL哭过的长期可乐"
+    },
+    {
+      "file": "qwen3tts_ko_1.wav",
+      "audio_s": 4.56,
+      "infer_s": 0.175,
+      "rtf": 0.0383,
+      "worst_chunk_ms": 12.8,
+      "tail_ms": 12.4,
+      "hyp": "荧光"
+    },
+    {
+      "file": "qwen3tts_ru_0.wav",
+      "audio_s": 4.72,
+      "infer_s": 0.187,
+      "rtf": 0.0397,
+      "worst_chunk_ms": 13.9,
+      "tail_ms": 0.0,
+      "hyp": ""
+    },
+    {
+      "file": "qwen3tts_ru_1.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.165,
+      "rtf": 0.0422,
+      "worst_chunk_ms": 14.5,
+      "tail_ms": 13.1,
+      "hyp": ""
+    },
+    {
+      "file": "qwen3tts_zh_0.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.173,
+      "rtf": 0.0442,
+      "worst_chunk_ms": 14.7,
+      "tail_ms": 14.5,
+      "hyp": "今天天气真不错我们一起去公园散步吧"
+    },
+    {
+      "file": "qwen3tts_zh_1.wav",
+      "audio_s": 8.8,
+      "infer_s": 0.368,
+      "rtf": 0.0418,
+      "worst_chunk_ms": 14.3,
+      "tail_ms": 0.1,
+      "hyp": "人工智能正在改变我们的工作方式和生活方式语音识别技术也越来越成熟"
+    },
+    {
+      "file": "qwen3tts_zh_mixed_0.wav",
+      "audio_s": 6.48,
+      "infer_s": 0.271,
+      "rtf": 0.0418,
+      "worst_chunk_ms": 14.7,
+      "tail_ms": 13.1,
+      "hyp": "我用吉他把管理代码用 KUBERNETES部署服务效率提升了很多"
+    }
+  ],
+  "peak_rss_mb": 483.8
+}

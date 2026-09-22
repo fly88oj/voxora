@@ -1,0 +1,75 @@
+{
+  "single": {
+    "agg_rtf": 0.127,
+    "rows": [
+      {
+        "file": "qwen3tts_zh_0.wav",
+        "rtf": 0.1936,
+        "ref": "今天天气真不错，我们一起去公园散步吧。",
+        "hyp": "今天天气真不错，我们一起去公园散步吧。",
+        "cer": 0.0,
+        "wer": 0.0
+      },
+      {
+        "file": "qwen3tts_en_0.wav",
+        "rtf": 0.144,
+        "ref": "The weather is really nice today, let's take a walk in the park together.",
+        "hyp": "The weather is really nice today. Let's take a walk in the park together.",
+        "cer": 0.0,
+        "wer": 0.0
+      },
+      {
+        "file": "qwen3tts_ja_0.wav",
+        "rtf": 0.11,
+        "ref": "今日はとても良い天気ですね。公園を散歩しながらコーヒーを飲みましょう。",
+        "hyp": "今日はとても良い天気ですね。公園を散歩しながらコーヒーを飲みましょう。",
+        "cer": 0.0,
+        "wer": 0.0
+      },
+      {
+        "file": "qwen3tts_zh_mixed_0.wav",
+        "rtf": 0.1395,
+        "ref": "我用 GitHub 管理代码，用 Kubernetes 部署服务，效率提升了很多。",
+        "hyp": "我用 Git Hub 管理代码，用 Kubernetes 部署服务，效率提升了很多。",
+        "cer": 0.0,
+        "wer": 0.2857
+      },
+      {
+        "file": "piper_en_0.wav",
+        "rtf": 0.1945,
+        "ref": "The weather is really nice today, let's take a walk in the park together.",
+        "hyp": "The weather is really nice today. Let's take a walk in the park together.",
+        "cer": 0.0,
+        "wer": 0.0
+      },
+      {
+        "file": "asr_zh.wav",
+        "rtf": 0.104,
+        "ref": null,
+        "hyp": "甚至出现交易几乎停滞的情况。",
+        "cer": null,
+        "wer": null
+      },
+      {
+        "file": "asr_en_16k.wav",
+        "rtf": 0.1197,
+        "ref": null,
+        "hyp": "Hmm. Oh yeah, yeah. He wasn't even that big when I started listening to him, but and his solo music didn't do overly well, but he did very well when he started writing for other people.",
+        "cer": null,
+        "wer": null
+      },
+      {
+        "file": "0.wav",
+        "rtf": 0.0913,
+        "ref": null,
+        "hyp": "昨天是 Monday。Today is 礼拜二。The day after tomorrow 是星期三。",
+        "cer": null,
+        "wer": null
+      }
+    ]
+  },
+  "batch": {
+    "agg_rtf": 0.0843,
+    "wall_s": 4.65
+  }
+}

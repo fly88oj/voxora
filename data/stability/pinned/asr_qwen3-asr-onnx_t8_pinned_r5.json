@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "engine": "qwen3-asr-onnx",
+  "kind": "asr",
+  "config": {
+    "num_threads": 8,
+    "repeat": 5,
+    "load_s": 2.416,
+    "voxora_version": "0.1"
+  },
+  "environment": {
+    "captured_at": "2026-09-23T03:20:10+00:00",
+    "schema_note": "see docs/METHODOLOGY.md",
+    "python": "3.12.3",
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+    "cpu": {
+      "arch": "x86_64",
+      "model": "AMD RYZEN AI MAX+ 395 w/ Radeon 8060S",
+      "logical_cpus": 32,
+      "physical_cores": 16
+    },
+    "libraries": {
+      "numpy": "2.5.3",
+      "soundfile": "0.14.0",
+      "sherpa-onnx": "1.13.8",
+      "piper-tts": "1.8.0",
+      "fastapi": "0.141.1",
+      "torch": "not-installed",
+      "qwen-asr": "not-installed",
+      "qwen-tts": "not-installed",
+      "transformers": "not-installed",
+      "onnxruntime": "1.30.0"
+    },
+    "runtime": {
+      "cpu_affinity": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "loadavg_1min": 11.85
+    }
+  },
+  "aggregate": {
+    "audio_s": 55.13,
+    "rtf": 0.1238,
+    "passes": [
+      0.1193,
+      0.1201,
+      0.1234,
+      0.1276,
+      0.1287
+    ],
+    "stats": {
+      "n": 5,
+      "mean": 0.1238,
+      "std": 0.0043,
+      "cv": 0.0344
+    }
+  },
+  "items": [
+    {
+      "file": "0.wav",
+      "audio_s": 10.053,
+      "processing_s": 0.985,
+      "rtf": 0.098,
+      "hyp": "昨天是 Monday。Today is 礼拜二。The day after tomorrow is 星期三。"
+    },
+    {
+      "file": "asr_en_16k.wav",
+      "audio_s": 15.051,
+      "processing_s": 1.843,
+      "rtf": 0.1225,
+      "hyp": "Mhm. Oh, yeah, yeah. He wasn't even that big when I started listening to him, but and his solo music didn't do overly well, but he did very well when he started writing for other people."
+    },
+    {
+      "file": "asr_zh.wav",
+      "audio_s": 4.204,
+      "processing_s": 0.472,
+      "rtf": 0.1123,
+      "hyp": "甚至出现交易几乎停滞的情况。"
+    },
+    {
+      "file": "piper_en_0.wav",
+      "audio_s": 3.657,
+      "processing_s": 0.685,
+      "rtf": 0.1873,
+      "hyp": "The weather is really nice today. Let's take a walk in the park together."
+    },
+    {
+      "file": "qwen3tts_en_0.wav",
+      "audio_s": 5.2,
+      "processing_s": 0.689,
+      "rtf": 0.1325,
+      "hyp": "The weather is really nice today. Let's take a walk in the park together."
+    },
+    {
+      "file": "qwen3tts_ja_0.wav",
+      "audio_s": 6.56,
+      "processing_s": 0.818,
+      "rtf": 0.1247,
+      "hyp": "今日はとても良い天気ですね。公園を散歩しながらコーヒーを飲みましょう。"
+    },
+    {
+      "file": "qwen3tts_zh_0.wav",
+      "audio_s": 3.92,
+      "processing_s": 0.618,
+      "rtf": 0.1577,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "qwen3tts_zh_mixed_0.wav",
+      "audio_s": 6.48,
+      "processing_s": 0.982,
+      "rtf": 0.1515,
+      "hyp": "我用 Git Hub 管理代码，用 Kubernetes 部署服务，效率提升了很多。"
+    }
+  ]
+}

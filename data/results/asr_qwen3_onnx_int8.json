@@ -1,0 +1,356 @@
+{
+  "engine": "Qwen3-ASR-0.6B ONNX int8 (zengshuishui export) via sherpa-onnx",
+  "config": "num_threads=16, greedy_search",
+  "load_s": 2.79,
+  "aggregate": {
+    "audio_s": 281.3,
+    "proc_s": 30.43,
+    "rtf": 0.1082
+  },
+  "items": [
+    {
+      "file": "bf16qwen3tts_en_2.wav",
+      "audio_s": 5.28,
+      "infer_s": 0.606,
+      "rtf": 0.1148,
+      "hyp": "The weather is really nice today. Let's take a walk in the park together."
+    },
+    {
+      "file": "bf16qwen3tts_en_3.wav",
+      "audio_s": 7.36,
+      "infer_s": 0.714,
+      "rtf": 0.0971,
+      "hyp": "Artificial intelligence is transforming the way we work and live across many industries."
+    },
+    {
+      "file": "bf16qwen3tts_ja_4.wav",
+      "audio_s": 6.64,
+      "infer_s": 0.637,
+      "rtf": 0.0959,
+      "hyp": "今日はとてもいい天気ですね。公園を散歩しながらコーヒーを飲みましょう。"
+    },
+    {
+      "file": "bf16qwen3tts_zh_0.wav",
+      "audio_s": 5.28,
+      "infer_s": 0.494,
+      "rtf": 0.0936,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "bf16qwen3tts_zh_1.wav",
+      "audio_s": 8.16,
+      "infer_s": 0.631,
+      "rtf": 0.0773,
+      "hyp": "人工智能正在改变我们的工作方式和生活方式。语音识别技术也越来越成熟。"
+    },
+    {
+      "file": "bf16qwen3tts_zh_mixed_5.wav",
+      "audio_s": 6.64,
+      "infer_s": 0.708,
+      "rtf": 0.1066,
+      "hyp": "我用 GitHub 管理代码，用 Kubernetes 部署服务，效率提升了很多。"
+    },
+    {
+      "file": "cosyvoice_cross_en.wav",
+      "audio_s": 4.36,
+      "infer_s": 0.652,
+      "rtf": 0.1495,
+      "hyp": "The weather is really nice today. Let's take a walk in the park together."
+    },
+    {
+      "file": "cosyvoice_cross_ja.wav",
+      "audio_s": 2.0,
+      "infer_s": 0.335,
+      "rtf": 0.1673,
+      "hyp": "今日はとてもいい天気ですね。"
+    },
+    {
+      "file": "cosyvoice_instruct2_sichuan.wav",
+      "audio_s": 3.36,
+      "infer_s": 0.471,
+      "rtf": 0.1401,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "cosyvoice_instruct2_yue.wav",
+      "audio_s": 9.96,
+      "infer_s": 1.176,
+      "rtf": 0.1181,
+      "hyp": "收到好友從遠方寄來的生日禮物，那份意外的驚喜與深深的祝福，讓我心中充滿了甜蜜的快樂。"
+    },
+    {
+      "file": "cosyvoice_zero_shot_zh_0.wav",
+      "audio_s": 3.76,
+      "infer_s": 0.492,
+      "rtf": 0.1309,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "cosyvoice_zero_shot_zh_1.wav",
+      "audio_s": 6.88,
+      "infer_s": 0.711,
+      "rtf": 0.1033,
+      "hyp": "人工智能正在改变我们的工作方式和生活方式。语音识别技术也越来越成熟。"
+    },
+    {
+      "file": "cosyvoice_zero_shot_zh_stream.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.528,
+      "rtf": 0.1347,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "piper_de_0.wav",
+      "audio_s": 3.704,
+      "infer_s": 0.615,
+      "rtf": 0.1661,
+      "hyp": "Das Wetter ist heute wunderbar. Lass uns im Park spazieren gehen."
+    },
+    {
+      "file": "piper_de_1.wav",
+      "audio_s": 3.843,
+      "infer_s": 0.598,
+      "rtf": 0.1556,
+      "hyp": "Künstliche Intelligenz verändert unsere Arbeitsweise in vielen Bereichen."
+    },
+    {
+      "file": "piper_en_0.wav",
+      "audio_s": 3.657,
+      "infer_s": 0.538,
+      "rtf": 0.1471,
+      "hyp": "The weather is really nice today. Let's take a walk in the park together."
+    },
+    {
+      "file": "piper_en_1.wav",
+      "audio_s": 5.004,
+      "infer_s": 0.514,
+      "rtf": 0.1028,
+      "hyp": "Artificial intelligence is transforming the way we work and live across many industries."
+    },
+    {
+      "file": "piper_es_0.wav",
+      "audio_s": 4.598,
+      "infer_s": 0.661,
+      "rtf": 0.1438,
+      "hyp": "Hoy hace un tiempo maravilloso, vamos a dar un paseo por el parque."
+    },
+    {
+      "file": "piper_es_1.wav",
+      "audio_s": 3.762,
+      "infer_s": 0.46,
+      "rtf": 0.1222,
+      "hyp": "La inteligencia artificial está cambiando el mundo entero."
+    },
+    {
+      "file": "piper_fr_0.wav",
+      "audio_s": 3.506,
+      "infer_s": 0.516,
+      "rtf": 0.1472,
+      "hyp": "Le temps est magnifique aujourd'hui. Allons nous promener au parc."
+    },
+    {
+      "file": "piper_fr_1.wav",
+      "audio_s": 3.808,
+      "infer_s": 0.479,
+      "rtf": 0.1257,
+      "hyp": "L'intelligence artificielle transforme notre manière de travailler."
+    },
+    {
+      "file": "piper_ru_0.wav",
+      "audio_s": 3.216,
+      "infer_s": 0.566,
+      "rtf": 0.1761,
+      "hyp": "Сегодня прекрасная погода. Давайте прогуляемся по парку."
+    },
+    {
+      "file": "piper_ru_1.wav",
+      "audio_s": 2.81,
+      "infer_s": 0.582,
+      "rtf": 0.207,
+      "hyp": "Искусственный интеллект меняет нашу жизнь с каждым днем."
+    },
+    {
+      "file": "piper_zh_0.wav",
+      "audio_s": 4.365,
+      "infer_s": 0.435,
+      "rtf": 0.0997,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "piper_zh_1.wav",
+      "audio_s": 6.49,
+      "infer_s": 0.574,
+      "rtf": 0.0884,
+      "hyp": "人工智能正在改编我们的工作方式和生活方式。语音识别技术也越来越成熟。"
+    },
+    {
+      "file": "qwen3tts_de_0.wav",
+      "audio_s": 3.68,
+      "infer_s": 0.566,
+      "rtf": 0.1537,
+      "hyp": "Das Wetter ist heute wunderbar, lass uns im Park spazieren gehen."
+    },
+    {
+      "file": "qwen3tts_de_1.wav",
+      "audio_s": 5.92,
+      "infer_s": 0.611,
+      "rtf": 0.1033,
+      "hyp": "Künstliche Intelligenz verändert unsere Arbeitsweise in vielen Bereichen."
+    },
+    {
+      "file": "qwen3tts_en_0.wav",
+      "audio_s": 5.2,
+      "infer_s": 0.629,
+      "rtf": 0.121,
+      "hyp": "The weather is really nice today. Let's take a walk in the park together."
+    },
+    {
+      "file": "qwen3tts_en_1.wav",
+      "audio_s": 6.4,
+      "infer_s": 0.578,
+      "rtf": 0.0903,
+      "hyp": "Artificial intelligence is transforming the way we work and live across many industries."
+    },
+    {
+      "file": "qwen3tts_es_0.wav",
+      "audio_s": 5.04,
+      "infer_s": 0.674,
+      "rtf": 0.1337,
+      "hyp": "Hoy hace un tiempo maravilloso. Vamos a dar un paseo por el parque."
+    },
+    {
+      "file": "qwen3tts_es_1.wav",
+      "audio_s": 3.76,
+      "infer_s": 0.493,
+      "rtf": 0.1312,
+      "hyp": "La inteligencia artificial está cambiando el mundo entero."
+    },
+    {
+      "file": "qwen3tts_fr_0.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.506,
+      "rtf": 0.1291,
+      "hyp": "Le temps est magnifique aujourd'hui, allons nous promener au parc."
+    },
+    {
+      "file": "qwen3tts_fr_1.wav",
+      "audio_s": 3.84,
+      "infer_s": 0.504,
+      "rtf": 0.1311,
+      "hyp": "L'intelligence artificielle transforme notre manière de travailler."
+    },
+    {
+      "file": "qwen3tts_ja_0.wav",
+      "audio_s": 6.56,
+      "infer_s": 0.618,
+      "rtf": 0.0942,
+      "hyp": "今日はとても良い天気ですね。公園を散歩しながらコーヒーを飲みましょう。"
+    },
+    {
+      "file": "qwen3tts_ja_1.wav",
+      "audio_s": 4.48,
+      "infer_s": 0.509,
+      "rtf": 0.1137,
+      "hyp": "人工知能は私たちの生活を大きく変えています。"
+    },
+    {
+      "file": "qwen3tts_ko_0.wav",
+      "audio_s": 4.64,
+      "infer_s": 0.659,
+      "rtf": 0.142,
+      "hyp": "오늘 날씨가 정말 좋네요. 공원에 산책하러 갑시다."
+    },
+    {
+      "file": "qwen3tts_ko_1.wav",
+      "audio_s": 4.56,
+      "infer_s": 0.536,
+      "rtf": 0.1176,
+      "hyp": "인공지능이 우리의 삶을 바꾸고 있습니다."
+    },
+    {
+      "file": "qwen3tts_ru_0.wav",
+      "audio_s": 4.72,
+      "infer_s": 0.64,
+      "rtf": 0.1356,
+      "hyp": "Сегодня прекрасная погода. Давайте прогуляемся по парку."
+    },
+    {
+      "file": "qwen3tts_ru_1.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.55,
+      "rtf": 0.1404,
+      "hyp": "Искусственный интеллект меняет нашу жизнь с каждым днем."
+    },
+    {
+      "file": "qwen3tts_zh_0.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.446,
+      "rtf": 0.1137,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "qwen3tts_zh_1.wav",
+      "audio_s": 8.8,
+      "infer_s": 0.668,
+      "rtf": 0.076,
+      "hyp": "人工智能正在改变我们的工作方式和生活方式。语音识别技术也越来越成熟。"
+    },
+    {
+      "file": "qwen3tts_zh_mixed_0.wav",
+      "audio_s": 6.48,
+      "infer_s": 0.758,
+      "rtf": 0.117,
+      "hyp": "我用 Git Hub 管理代码，用 Kubernetes 部署服务，效率提升了很多。"
+    },
+    {
+      "file": "8k_ref_16k.wav",
+      "audio_s": 17.64,
+      "infer_s": 2.038,
+      "rtf": 0.1155,
+      "hyp": "嗯，on time叫准时，in time是及时叫。他总是准时交他的作业。那用一般现在时是没有什么感情色彩的陈述一个事实。下一句话为什么要用现在进行时？他的意思并不是说说他现在正在交他的。"
+    },
+    {
+      "file": "asr_en_16k.wav",
+      "audio_s": 22.577,
+      "infer_s": 0.735,
+      "rtf": 0.0326,
+      "hyp": ""
+    },
+    {
+      "file": "asr_zh.wav",
+      "audio_s": 4.204,
+      "infer_s": 0.351,
+      "rtf": 0.0835,
+      "hyp": "甚至出现交易几乎停滞的情况。"
+    },
+    {
+      "file": "0.wav",
+      "audio_s": 10.053,
+      "infer_s": 0.795,
+      "rtf": 0.079,
+      "hyp": "昨天是 Monday。Today is 礼拜二。The day after tomorrow is 星期三。"
+    },
+    {
+      "file": "1.wav",
+      "audio_s": 5.1,
+      "infer_s": 0.514,
+      "rtf": 0.1008,
+      "hyp": "这是第一种，第二种叫呃与OS，OS什么意思啊？"
+    },
+    {
+      "file": "2.wav",
+      "audio_s": 4.69,
+      "infer_s": 0.455,
+      "rtf": 0.0971,
+      "hyp": "就是频繁的啊，不是接下来 frequently，频繁的。"
+    },
+    {
+      "file": "3.wav",
+      "audio_s": 8.83,
+      "infer_s": 0.909,
+      "rtf": 0.1029,
+      "hyp": "第一句是个什么时态？加了“yes”，是一般现在时。对，我们把它时态写上面。"
+    }
+  ],
+  "peak_rss_mb": 2424.3
+}

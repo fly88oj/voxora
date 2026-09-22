@@ -1,0 +1,37 @@
+{
+  "zh": [
+    "今天天气真不错，我们一起去公园散步吧。",
+    "人工智能正在改变我们的工作方式和生活方式，语音识别技术也越来越成熟。"
+  ],
+  "zh_mixed": [
+    "我用 GitHub 管理代码，用 Kubernetes 部署服务，效率提升了很多。"
+  ],
+  "en": [
+    "The weather is really nice today, let's take a walk in the park together.",
+    "Artificial intelligence is transforming the way we work and live across many industries."
+  ],
+  "de": [
+    "Das Wetter ist heute wunderbar, lass uns im Park spazieren gehen.",
+    "Künstliche Intelligenz verändert unsere Arbeitsweise in vielen Bereichen."
+  ],
+  "fr": [
+    "Le temps est magnifique aujourd'hui, allons nous promener au parc.",
+    "L'intelligence artificielle transforme notre manière de travailler."
+  ],
+  "ru": [
+    "Сегодня прекрасная погода, давайте прогуляемся по парку.",
+    "Искусственный интеллект меняет нашу жизнь с каждым днём."
+  ],
+  "es": [
+    "Hoy hace un tiempo maravilloso, vamos a dar un paseo por el parque.",
+    "La inteligencia artificial está cambiando el mundo entero."
+  ],
+  "ja": [
+    "今日はとても良い天気ですね。公園を散歩しながらコーヒーを飲みましょう。",
+    "人工知能は私たちの生活を大きく変えています。"
+  ],
+  "ko": [
+    "오늘 날씨가 정말 좋네요. 공원에 산책하러 갑시다.",
+    "인공지능이 우리의 삶을 바꾸고 있습니다."
+  ]
+}

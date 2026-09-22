@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If Voxora or its measurement data is useful in your research, please cite it."
+title: "Voxora: a CPU-only REST API service for speech recognition and synthesis, with measured performance references"
+type: software
+authors:
+  - name: "Voxora contributors"
+repository-code: "https://github.com/fly88oj/voxora"
+url: "https://github.com/fly88oj/voxora"
+abstract: >-
+  Voxora is a REST API service for speech recognition (ASR) and text-to-speech
+  (TTS) that runs entirely on CPU, exposing eight open engines (SenseVoiceSmall,
+  streaming Zipformer, Qwen3-ASR, Fun-ASR-Nano, Piper, Qwen3-TTS, CosyVoice3)
+  behind one OpenAI-style contract with per-request RTF telemetry. The package
+  also ships the measurement harness and reference data behind its performance
+  claims: versioned raw results, environment fingerprints including CPU
+  affinity and load, a documented TTS-to-ASR round-trip accuracy protocol,
+  and a run-to-run stability study.
+keywords:
+  - speech-recognition
+  - text-to-speech
+  - api
+  - cpu-inference
+  - onnx
+license: Apache-2.0
+version: 0.1
+date-released: "2026-09-22"

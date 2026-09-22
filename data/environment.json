@@ -1,0 +1,54 @@
+{
+  "reference_machine": {
+    "cpu_model": "AMD RYZEN AI MAX+ 395 w/ Radeon 8060S",
+    "arch": "x86_64",
+    "physical_cores": 16,
+    "logical_cpus": 32,
+    "memory": "93 GB",
+    "os": "Ubuntu 24.04 (glibc 2.39), kernel 7.0",
+    "python": "3.12.3"
+  },
+  "note": "Every engine ran in an isolated virtual environment on this machine on 2026-09-22; per-engine pins below are the versions that produced data/results and data/optimization. The API/benchmark package itself is Python-version independent (>=3.10).",
+  "engine_runtimes": {
+    "sensevoice, zipformer, qwen3-asr-onnx, funasr-nano-onnx (sherpa-onnx route)": {
+      "sherpa-onnx": "1.13.8",
+      "numpy": "2.5.3"
+    },
+    "piper": {
+      "piper-tts": "1.8.0",
+      "onnxruntime": "1.30.0",
+      "numpy": "2.5.3"
+    },
+    "qwen3-asr (pytorch route)": {
+      "qwen-asr": "0.0.6",
+      "torch": "2.14.0+cpu",
+      "transformers": "4.57.6",
+      "accelerate": "1.12.0",
+      "soundfile": "0.14.0",
+      "numpy": "2.5.3"
+    },
+    "qwen3-tts": {
+      "qwen-tts": "0.1.1",
+      "torch": "2.11.0+cpu",
+      "torchaudio": "2.11.0+cpu",
+      "transformers": "4.57.3",
+      "accelerate": "1.12.0",
+      "onnxruntime": "1.30.0",
+      "numpy": "2.5.3"
+    },
+    "cosyvoice": {
+      "torch": "2.10.0+cpu",
+      "torchaudio": "2.10.0+cpu",
+      "transformers": "4.51.3",
+      "onnxruntime": "1.26.0",
+      "numpy": "2.5.3"
+    },
+    "sensevoice-funasr (toolkit route)": {
+      "funasr": "1.4.16",
+      "torch": "2.10.0+cpu",
+      "torchaudio": "2.10.0+cpu",
+      "transformers": "5.17.0",
+      "numpy": "2.5.3"
+    }
+  }
+}

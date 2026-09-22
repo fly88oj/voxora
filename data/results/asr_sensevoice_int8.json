@@ -1,0 +1,356 @@
+{
+  "engine": "SenseVoiceSmall via sherpa-onnx",
+  "model": "model.int8.onnx",
+  "load_s": 1.416,
+  "aggregate": {
+    "audio_s": 281.3,
+    "proc_s": 3.68,
+    "rtf": 0.0131
+  },
+  "items": [
+    {
+      "file": "bf16qwen3tts_en_2.wav",
+      "audio_s": 5.28,
+      "infer_s": 0.088,
+      "rtf": 0.0167,
+      "hyp": "The weather is really nice today. Let's take a walk in the park together."
+    },
+    {
+      "file": "bf16qwen3tts_en_3.wav",
+      "audio_s": 7.36,
+      "infer_s": 0.118,
+      "rtf": 0.0161,
+      "hyp": "Artificial intelligence is transforming the way we work and live across many industries."
+    },
+    {
+      "file": "bf16qwen3tts_ja_4.wav",
+      "audio_s": 6.64,
+      "infer_s": 0.096,
+      "rtf": 0.0145,
+      "hyp": "今日は とても いい 天気 で、すね 公園 を 散歩 し ながら コーヒー を 飲み ましょう。"
+    },
+    {
+      "file": "bf16qwen3tts_zh_0.wav",
+      "audio_s": 5.28,
+      "infer_s": 0.078,
+      "rtf": 0.0148,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "bf16qwen3tts_zh_1.wav",
+      "audio_s": 8.16,
+      "infer_s": 0.115,
+      "rtf": 0.0141,
+      "hyp": "人工智能正在改变我们的工作方式和生活方式，语音识别技术也越来越成熟。"
+    },
+    {
+      "file": "bf16qwen3tts_zh_mixed_5.wav",
+      "audio_s": 6.64,
+      "infer_s": 0.087,
+      "rtf": 0.0132,
+      "hyp": "我用gethub管理代码，用kiubbernetes部署服务效率提升了很多。"
+    },
+    {
+      "file": "cosyvoice_cross_en.wav",
+      "audio_s": 4.36,
+      "infer_s": 0.067,
+      "rtf": 0.0154,
+      "hyp": "The weather is really nice today. Let's take a walk in the park together."
+    },
+    {
+      "file": "cosyvoice_cross_ja.wav",
+      "audio_s": 2.0,
+      "infer_s": 0.044,
+      "rtf": 0.0221,
+      "hyp": "今日はとてもいい天気ですね。"
+    },
+    {
+      "file": "cosyvoice_instruct2_sichuan.wav",
+      "audio_s": 3.36,
+      "infer_s": 0.063,
+      "rtf": 0.0186,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "cosyvoice_instruct2_yue.wav",
+      "audio_s": 9.96,
+      "infer_s": 0.149,
+      "rtf": 0.0149,
+      "hyp": "收到好友从远方寄来的生日礼物那份意外的惊喜与深深的祝福，让我心中充满了甜蜜的快乐。"
+    },
+    {
+      "file": "cosyvoice_zero_shot_zh_0.wav",
+      "audio_s": 3.76,
+      "infer_s": 0.073,
+      "rtf": 0.0194,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "cosyvoice_zero_shot_zh_1.wav",
+      "audio_s": 6.88,
+      "infer_s": 0.087,
+      "rtf": 0.0126,
+      "hyp": "人工智能正在改变我们的工作方式和生活方式，语音识别技术也越来越成熟。"
+    },
+    {
+      "file": "cosyvoice_zero_shot_zh_stream.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.054,
+      "rtf": 0.0137,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "piper_de_0.wav",
+      "audio_s": 3.704,
+      "infer_s": 0.05,
+      "rtf": 0.0135,
+      "hyp": "Theveta is Tota Bundaba, Lasons and Park but Sirenin."
+    },
+    {
+      "file": "piper_de_1.wav",
+      "audio_s": 3.843,
+      "infer_s": 0.045,
+      "rtf": 0.0118,
+      "hyp": "Conslicial intelligenceence forend Uzra Abt's vice in field variation."
+    },
+    {
+      "file": "piper_en_0.wav",
+      "audio_s": 3.657,
+      "infer_s": 0.043,
+      "rtf": 0.0118,
+      "hyp": "The weather is really nice today. Let's take a walk in the park together."
+    },
+    {
+      "file": "piper_en_1.wav",
+      "audio_s": 5.004,
+      "infer_s": 0.052,
+      "rtf": 0.0103,
+      "hyp": "Artificial intelligence is transforming the way we work and live across many industries."
+    },
+    {
+      "file": "piper_es_0.wav",
+      "audio_s": 4.598,
+      "infer_s": 0.048,
+      "rtf": 0.0104,
+      "hyp": "お休テ舗マび予そバモサダバオパケ。"
+    },
+    {
+      "file": "piper_es_1.wav",
+      "audio_s": 3.762,
+      "infer_s": 0.045,
+      "rtf": 0.0119,
+      "hyp": "Lying television artificialta comembmun and of."
+    },
+    {
+      "file": "piper_fr_0.wav",
+      "audio_s": 3.506,
+      "infer_s": 0.043,
+      "rtf": 0.0121,
+      "hyp": "Letonin Manfio Aon."
+    },
+    {
+      "file": "piper_fr_1.wav",
+      "audio_s": 3.808,
+      "infer_s": 0.045,
+      "rtf": 0.0118,
+      "hyp": "Late Bijo artificial transform, notreman Lu T."
+    },
+    {
+      "file": "piper_ru_0.wav",
+      "audio_s": 3.216,
+      "infer_s": 0.05,
+      "rtf": 0.0156,
+      "hyp": "Svanni prerasnepa godon Davei pragupaparco."
+    },
+    {
+      "file": "piper_ru_1.wav",
+      "audio_s": 2.81,
+      "infer_s": 0.06,
+      "rtf": 0.0213,
+      "hyp": "Hiscus intellect Minet Na Cardomium."
+    },
+    {
+      "file": "piper_zh_0.wav",
+      "audio_s": 4.365,
+      "infer_s": 0.06,
+      "rtf": 0.0137,
+      "hyp": "今天天气真不错，我们一起去公园三不吧。"
+    },
+    {
+      "file": "piper_zh_1.wav",
+      "audio_s": 6.49,
+      "infer_s": 0.075,
+      "rtf": 0.0116,
+      "hyp": "人工智能正在改编，我们的工作方式和生活方式、语音识别技术也越来越成熟。"
+    },
+    {
+      "file": "qwen3tts_de_0.wav",
+      "audio_s": 3.68,
+      "infer_s": 0.057,
+      "rtf": 0.0154,
+      "hyp": "The is la in park but again."
+    },
+    {
+      "file": "qwen3tts_de_1.wav",
+      "audio_s": 5.92,
+      "infer_s": 0.085,
+      "rtf": 0.0143,
+      "hyp": "Kun slicer inlig for at Ura A's vior in fear andvari."
+    },
+    {
+      "file": "qwen3tts_en_0.wav",
+      "audio_s": 5.2,
+      "infer_s": 0.076,
+      "rtf": 0.0146,
+      "hyp": "The weather is really nice today. Let's take a walk in the park together."
+    },
+    {
+      "file": "qwen3tts_en_1.wav",
+      "audio_s": 6.4,
+      "infer_s": 0.089,
+      "rtf": 0.0139,
+      "hyp": "Artificial intelligence is transforming the way we work and live across many industries."
+    },
+    {
+      "file": "qwen3tts_es_0.wav",
+      "audio_s": 5.04,
+      "infer_s": 0.065,
+      "rtf": 0.0129,
+      "hyp": "おいアテンティアンポ学びよそバモサダルンパセオポレバルケ。"
+    },
+    {
+      "file": "qwen3tts_es_1.wav",
+      "audio_s": 3.76,
+      "infer_s": 0.051,
+      "rtf": 0.0136,
+      "hyp": "L인 dehen Artifictaan B Menド andtero."
+    },
+    {
+      "file": "qwen3tts_fr_0.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.052,
+      "rtf": 0.0132,
+      "hyp": "Lton and Manfio Rovi Aon."
+    },
+    {
+      "file": "qwen3tts_fr_1.wav",
+      "audio_s": 3.84,
+      "infer_s": 0.049,
+      "rtf": 0.0129,
+      "hyp": "L televisions artificial transformed not Romania de Travai."
+    },
+    {
+      "file": "qwen3tts_ja_0.wav",
+      "audio_s": 6.56,
+      "infer_s": 0.075,
+      "rtf": 0.0114,
+      "hyp": "今日はとても 良い 天気 で、すね 公園 を 散歩し ながら コーヒーを 飲み ましょう。"
+    },
+    {
+      "file": "qwen3tts_ja_1.wav",
+      "audio_s": 4.48,
+      "infer_s": 0.054,
+      "rtf": 0.0122,
+      "hyp": "人工知能は私たちの生活を大きく変えています。"
+    },
+    {
+      "file": "qwen3tts_ko_0.wav",
+      "audio_s": 4.64,
+      "infer_s": 0.056,
+      "rtf": 0.012,
+      "hyp": "오늘 날씨가 정말 좋네요. 공원에 산책하러 갑시다."
+    },
+    {
+      "file": "qwen3tts_ko_1.wav",
+      "audio_s": 4.56,
+      "infer_s": 0.055,
+      "rtf": 0.0122,
+      "hyp": "인공지능이 우리의 삶을 바꾸고 있습니다."
+    },
+    {
+      "file": "qwen3tts_ru_0.wav",
+      "audio_s": 4.72,
+      "infer_s": 0.062,
+      "rtf": 0.0132,
+      "hyp": "시クda, 프로그램co."
+    },
+    {
+      "file": "qwen3tts_ru_1.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.056,
+      "rtf": 0.0144,
+      "hyp": "I coast win the intellect, Minatna region them."
+    },
+    {
+      "file": "qwen3tts_zh_0.wav",
+      "audio_s": 3.92,
+      "infer_s": 0.055,
+      "rtf": 0.0139,
+      "hyp": "今天天气真不错，我们一起去公园散步吧。"
+    },
+    {
+      "file": "qwen3tts_zh_1.wav",
+      "audio_s": 8.8,
+      "infer_s": 0.095,
+      "rtf": 0.0108,
+      "hyp": "人工智能正在改变我们的工作方式和生活方式，语音识别技术也越来越成熟。"
+    },
+    {
+      "file": "qwen3tts_zh_mixed_0.wav",
+      "audio_s": 6.48,
+      "infer_s": 0.078,
+      "rtf": 0.0121,
+      "hyp": "我用Gthub管理代码用kuubernetes部署服务效率提升了很多。"
+    },
+    {
+      "file": "8k_ref_16k.wav",
+      "audio_s": 17.64,
+      "infer_s": 0.172,
+      "rtf": 0.0098,
+      "hyp": "嗯，on time要准时in time是及时交，他总是准时交他的作业。那用一般现在时是没有什么感情色彩的陈述一个事实。下一句话，为什么要用现在进行时？他的意思并不是说说他现在正在教他的。"
+    },
+    {
+      "file": "asr_en_16k.wav",
+      "audio_s": 22.577,
+      "infer_s": 0.245,
+      "rtf": 0.0109,
+      "hyp": "."
+    },
+    {
+      "file": "asr_zh.wav",
+      "audio_s": 4.204,
+      "infer_s": 0.066,
+      "rtf": 0.0156,
+      "hyp": "甚至出现交易几乎停滞的情况。"
+    },
+    {
+      "file": "0.wav",
+      "audio_s": 10.053,
+      "infer_s": 0.13,
+      "rtf": 0.013,
+      "hyp": "昨天是monday，today is礼拜2，the day after tomorrow是星期三。"
+    },
+    {
+      "file": "1.wav",
+      "audio_s": 5.1,
+      "infer_s": 0.07,
+      "rtf": 0.0138,
+      "hyp": "这是第一种。第二种叫呃与OSOS什么意思啊？"
+    },
+    {
+      "file": "2.wav",
+      "audio_s": 4.69,
+      "infer_s": 0.058,
+      "rtf": 0.0124,
+      "hyp": "这个是平凡的啊，主然是接下来frequently平凡的。"
+    },
+    {
+      "file": "3.wav",
+      "audio_s": 8.83,
+      "infer_s": 0.097,
+      "rtf": 0.011,
+      "hyp": "第一句是个什么时态加了ES是一般现代时对，后把它时态写上去。"
+    }
+  ],
+  "peak_rss_mb": 1567.0
+}

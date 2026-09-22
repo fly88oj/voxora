@@ -1,0 +1,19 @@
+{
+  "config": "fp32 threads=32",
+  "load_s": 2.26,
+  "items": [
+    {
+      "lang": "zh",
+      "synth_s": 100.25,
+      "audio_s": 4.32,
+      "rtf": 23.2051
+    },
+    {
+      "lang": "en",
+      "synth_s": 134.06,
+      "audio_s": 5.84,
+      "rtf": 22.9563
+    }
+  ],
+  "avg_rtf": 23.0807
+}

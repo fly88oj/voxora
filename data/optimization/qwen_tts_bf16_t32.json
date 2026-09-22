@@ -1,0 +1,19 @@
+{
+  "config": "bf16 threads=32",
+  "load_s": 2.53,
+  "items": [
+    {
+      "lang": "zh",
+      "synth_s": 241.64,
+      "audio_s": 3.76,
+      "rtf": 64.266
+    },
+    {
+      "lang": "en",
+      "synth_s": 381.61,
+      "audio_s": 6.0,
+      "rtf": 63.6024
+    }
+  ],
+  "avg_rtf": 63.9342
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "engine": "zipformer",
+  "kind": "asr",
+  "config": {
+    "num_threads": 4,
+    "repeat": 5,
+    "load_s": 0.912,
+    "voxora_version": "0.1"
+  },
+  "environment": {
+    "captured_at": "2026-09-23T04:43:21+00:00",
+    "schema_note": "see docs/METHODOLOGY.md",
+    "python": "3.12.3",
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+    "cpu": {
+      "arch": "x86_64",
+      "model": "AMD RYZEN AI MAX+ 395 w/ Radeon 8060S",
+      "logical_cpus": 32,
+      "physical_cores": 16
+    },
+    "libraries": {
+      "numpy": "2.5.3",
+      "soundfile": "0.14.0",
+      "sherpa-onnx": "1.13.8",
+      "piper-tts": "1.8.0",
+      "fastapi": "0.141.1",
+      "torch": "not-installed",
+      "qwen-asr": "not-installed",
+      "qwen-tts": "not-installed",
+      "transformers": "not-installed",
+      "onnxruntime": "1.30.0"
+    },
+    "runtime": {
+      "cpu_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "loadavg_1min": 18.43
+    }
+  },
+  "aggregate": {
+    "audio_s": 55.13,
+    "rtf": 0.0324,
+    "passes": [
+      0.0331,
+      0.0316,
+      0.0337,
+      0.0316,
+      0.0319
+    ],
+    "stats": {
+      "n": 5,
+      "mean": 0.0324,
+      "std": 0.001,
+      "cv": 0.0297
+    }
+  },
+  "items": [
+    {
+      "file": "0.wav",
+      "audio_s": 10.053,
+      "processing_s": 0.317,
+      "rtf": 0.0315,
+      "hyp": "昨天是 MONDAY TODAY IS LIBR THE DAY AFTER TOMORROW是星期三"
+    },
+    {
+      "file": "asr_en_16k.wav",
+      "audio_s": 15.051,
+      "processing_s": 0.47,
+      "rtf": 0.0312,
+      "hyp": "嗯哼 OH YEAH HE WAS NT EVEN THAT BIG WHEN I STARTED LISTENING TO HIM BUT IN HIS SOLO MUSIC DIDNT DO OVERLY WELL BUT HE DID VERY WELL WHEN HE STARTED WRITING FOR OTHER PEOPLE"
+    },
+    {
+      "file": "asr_zh.wav",
+      "audio_s": 4.204,
+      "processing_s": 0.125,
+      "rtf": 0.0297,
+      "hyp": "甚至出现交易几乎停滞的情况"
+    },
+    {
+      "file": "piper_en_0.wav",
+      "audio_s": 3.657,
+      "processing_s": 0.137,
+      "rtf": 0.0375,
+      "hyp": "NICE TODAY LETS TAKE A WALK IN THE PARK TOGETHER"
+    },
+    {
+      "file": "qwen3tts_en_0.wav",
+      "audio_s": 5.2,
+      "processing_s": 0.188,
+      "rtf": 0.0362,
+      "hyp": "THE WEATHER IS REALLY NICE TODAY LETS TAKE A WALK IN THE PARK TOGETHER"
+    },
+    {
+      "file": "qwen3tts_ja_0.wav",
+      "audio_s": 6.56,
+      "processing_s": 0.216,
+      "rtf": 0.0329,
+      "hyp": "救了 COURT HE ON THE MEMOS"
+    },
+    {
+      "file": "qwen3tts_zh_0.wav",
+      "audio_s": 3.92,
+      "processing_s": 0.115,
+      "rtf": 0.0293,
+      "hyp": "今天天气真不错我们一起去公园散步吧"
+    },
+    {
+      "file": "qwen3tts_zh_mixed_0.wav",
+      "audio_s": 6.48,
+      "processing_s": 0.189,
+      "rtf": 0.0292,
+      "hyp": "我用吉他把管理代码用 KUBERNETES部署服务效率提升了很多"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "config": "zf_int8_t16_greedy",
+    "meta": {
+      "engine": "zipformer streaming int8",
+      "threads": 16,
+      "decoding": "greedy_search"
+    },
+    "aggregate_rtf": 0.0796,
+    "audio_s": 62.65,
+    "items": [
+      {
+        "file": "qwen3tts_zh_0.wav",
+        "rtf": 0.1201
+      },
+      {
+        "file": "qwen3tts_en_0.wav",
+        "rtf": 0.0807
+      },
+      {
+        "file": "qwen3tts_ja_0.wav",
+        "rtf": 0.0516
+      },
+      {
+        "file": "qwen3tts_zh_mixed_0.wav",
+        "rtf": 0.0907
+      },
+      {
+        "file": "piper_en_0.wav",
+        "rtf": 0.0895
+      },
+      {
+        "file": "asr_zh.wav",
+        "rtf": 0.0838
+      },
+      {
+        "file": "asr_en_16k.wav",
+        "rtf": 0.0746
+      },
+      {
+        "file": "0.wav",
+        "rtf": 0.0801
+      }
+    ],
+    "load_s": 0.92
+  }
+]

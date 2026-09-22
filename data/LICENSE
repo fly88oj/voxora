@@ -1,0 +1,8 @@
+The measurement data in this directory (results/, optimization/, environment.json,
+corpus.json) is licensed under the Creative Commons Attribution 4.0 International
+License (CC-BY-4.0). Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The sample audio in fixtures/ originates from: (a) sample assets published with
+the Qwen3-ASR project, and (b) audio synthesized during the study from corpus.json
+using Piper and Qwen3-TTS. It is distributed under CC-BY-4.0 with attribution to
+those upstream projects (see docs/MODEL_LICENSES.md).

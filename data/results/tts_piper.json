@@ -1,0 +1,135 @@
+{
+  "engine": "piper (PyPI piper-tts, onnxruntime CPU)",
+  "load_s": {
+    "en": 0.557,
+    "de": 0.642,
+    "fr": 0.658,
+    "ru": 0.636,
+    "es": 0.65,
+    "zh": 0.622
+  },
+  "items": [
+    {
+      "lang": "en",
+      "voice": "en_US-lessac-medium",
+      "text": "The weather is really nice today, let's take a walk in the park together.",
+      "file": "audio/wav/piper_en_0.wav",
+      "synth_s": 0.184,
+      "first_chunk_s": 0.184,
+      "audio_s": 3.657,
+      "rtf": 0.0503
+    },
+    {
+      "lang": "en",
+      "voice": "en_US-lessac-medium",
+      "text": "Artificial intelligence is transforming the way we work and live across many industries.",
+      "file": "audio/wav/piper_en_1.wav",
+      "synth_s": 0.203,
+      "first_chunk_s": 0.2033,
+      "audio_s": 5.004,
+      "rtf": 0.0406
+    },
+    {
+      "lang": "de",
+      "voice": "de_DE-thorsten-medium",
+      "text": "Das Wetter ist heute wunderbar, lass uns im Park spazieren gehen.",
+      "file": "audio/wav/piper_de_0.wav",
+      "synth_s": 0.15,
+      "first_chunk_s": 0.1503,
+      "audio_s": 3.704,
+      "rtf": 0.0406
+    },
+    {
+      "lang": "de",
+      "voice": "de_DE-thorsten-medium",
+      "text": "Künstliche Intelligenz verändert unsere Arbeitsweise in vielen Bereichen.",
+      "file": "audio/wav/piper_de_1.wav",
+      "synth_s": 0.169,
+      "first_chunk_s": 0.1687,
+      "audio_s": 3.843,
+      "rtf": 0.0439
+    },
+    {
+      "lang": "fr",
+      "voice": "fr_FR-siwis-medium",
+      "text": "Le temps est magnifique aujourd'hui, allons nous promener au parc.",
+      "file": "audio/wav/piper_fr_0.wav",
+      "synth_s": 0.167,
+      "first_chunk_s": 0.1674,
+      "audio_s": 3.506,
+      "rtf": 0.0478
+    },
+    {
+      "lang": "fr",
+      "voice": "fr_FR-siwis-medium",
+      "text": "L'intelligence artificielle transforme notre manière de travailler.",
+      "file": "audio/wav/piper_fr_1.wav",
+      "synth_s": 0.156,
+      "first_chunk_s": 0.156,
+      "audio_s": 3.808,
+      "rtf": 0.041
+    },
+    {
+      "lang": "ru",
+      "voice": "ru_RU-dmitri-medium",
+      "text": "Сегодня прекрасная погода, давайте прогуляемся по парку.",
+      "file": "audio/wav/piper_ru_0.wav",
+      "synth_s": 0.157,
+      "first_chunk_s": 0.1565,
+      "audio_s": 3.216,
+      "rtf": 0.0487
+    },
+    {
+      "lang": "ru",
+      "voice": "ru_RU-dmitri-medium",
+      "text": "Искусственный интеллект меняет нашу жизнь с каждым днём.",
+      "file": "audio/wav/piper_ru_1.wav",
+      "synth_s": 0.168,
+      "first_chunk_s": 0.1678,
+      "audio_s": 2.81,
+      "rtf": 0.0598
+    },
+    {
+      "lang": "es",
+      "voice": "es_MX-ald-medium",
+      "text": "Hoy hace un tiempo maravilloso, vamos a dar un paseo por el parque.",
+      "file": "audio/wav/piper_es_0.wav",
+      "synth_s": 0.191,
+      "first_chunk_s": 0.1912,
+      "audio_s": 4.598,
+      "rtf": 0.0416
+    },
+    {
+      "lang": "es",
+      "voice": "es_MX-ald-medium",
+      "text": "La inteligencia artificial está cambiando el mundo entero.",
+      "file": "audio/wav/piper_es_1.wav",
+      "synth_s": 0.192,
+      "first_chunk_s": 0.1924,
+      "audio_s": 3.762,
+      "rtf": 0.0512
+    },
+    {
+      "lang": "zh",
+      "voice": "zh_CN-huayan-medium",
+      "text": "今天天气真不错，我们一起去公园散步吧。",
+      "file": "audio/wav/piper_zh_0.wav",
+      "synth_s": 0.191,
+      "first_chunk_s": 0.1906,
+      "audio_s": 4.365,
+      "rtf": 0.0437
+    },
+    {
+      "lang": "zh",
+      "voice": "zh_CN-huayan-medium",
+      "text": "人工智能正在改变我们的工作方式和生活方式，语音识别技术也越来越成熟。",
+      "file": "audio/wav/piper_zh_1.wav",
+      "synth_s": 0.263,
+      "first_chunk_s": 0.2634,
+      "audio_s": 6.49,
+      "rtf": 0.0406
+    }
+  ],
+  "total_wall_s": 6.0,
+  "peak_rss_mb": 381.1
+}

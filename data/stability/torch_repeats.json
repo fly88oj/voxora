@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "description": "PyTorch-engine replication runs (2026-09-23, clean sequential pass, fresh process per run, original per-engine virtual environments from data/environment.json). These validate the 2026-09-22 reference measurements in data/results and data/optimization.",
+  "workload": "same 8-file subset as data/optimization (ASR); corpus sentences zh/en for qwen3-tts; zero-shot zh prompt case for cosyvoice",
+  "runs": {
+    "qwen3-asr bf16 t16 single": {
+      "passes": [0.1362, 0.1308, 0.1268, 0.128, 0.1268],
+      "mean": 0.1297,
+      "std": 0.0039,
+      "cv": 0.03,
+      "reference_value_2026_09_22": 0.1209,
+      "drift_vs_reference": "+7.3%"
+    },
+    "qwen3-asr bf16 t16 batch8": {
+      "passes": [0.0762, 0.0791, 0.0837],
+      "mean": 0.0797,
+      "std": 0.0038,
+      "cv": 0.0475,
+      "reference_value_2026_09_22": 0.0843,
+      "drift_vs_reference": "-5.5%"
+    },
+    "qwen3-tts bf16 t16 (zh+en, 2 sentences)": {
+      "note": "pass 1 zh was a cold-process outlier (2.75); warm passes only",
+      "warm_passes": [1.5, 1.46, 1.55, 1.58, 1.46],
+      "warm_mean": 1.51,
+      "reference_value_2026_09_22": 1.4005,
+      "reference_workload": "6 sentences / 4 languages",
+      "drift_vs_reference": "+7.8% (different sentence mix)"
+    },
+    "cosyvoice t16 zero-shot zh": {
+      "note": "pass 1 was a cold-process outlier (6.19); warm passes only",
+      "warm_passes": [4.413, 4.33],
+      "warm_mean": 4.37,
+      "reference_value_2026_09_22": 3.994,
+      "drift_vs_reference": "+9.4%"
+    }
+  },
+  "protocol_notes": [
+    "Runs executed strictly sequentially; an earlier parallel attempt (benchmark + PyTorch chains concurrent) inflated RTF up to 2x and was discarded.",
+    "The reference host is shared and non-exclusive (approx. 2 cores of ambient services). Differences vs the 2026-09-22 reference values reflect ambient CPU load at run time, not elapsed time; these runs predate automatic load recording (environment.runtime), so their load state is unknown. See pinned/ runs for load-attributed evidence and METHODOLOGY.md section 6.",
+    "Within-process cv for the ONNX engines (asr_*.json here) is 2-5%; cross-process means track the ambient load almost linearly."
+  ]
+}
